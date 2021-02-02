@@ -1,0 +1,38 @@
+/*estilos de cabecera*/
+
+
+.header{
+    background: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    flex-flow: row, nowrap;
+    text-align: center;
+    font-size: 4vh;
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 2vh;
+    border-bottom:2px solid rgb(189, 142, 23);
+    
+}
+
+#link-menu{
+    margin: 2vw;
+    color: rgb(8, 8, 216);
+    font-family: 'Coda Caption', sans-serif;
+
+}
+#link-menu:hover{
+    transition-duration:500ms;
+    background-color: rgb(189, 142, 23);
+    
+}
+
+/*inicio*/
+.banner{
+    display: flex;
+    background-image: url(src/assets/img/millos4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 88vh;
+}
