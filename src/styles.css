@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: row, nowrap;
     text-align: center;
-    font-size: 4vh;
+    font-size: 1.5vw;
     list-style: none;
     text-transform: uppercase;
     padding-top: 2vh;
@@ -22,12 +22,21 @@
 
 }
 #link-menu:hover{
-    transition-duration:500ms;
+    transition-duration:200ms;
     background-color: rgb(189, 142, 23);
     
 }
 
 /*inicio*/
+.contenedor{
+
+    display: flex;
+    width: 90vw;
+    margin:  0vw 5vw;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+
 .banner{
     display: flex;
     background-image: url(src/assets/img/millos4.jpg);
@@ -35,4 +44,186 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 88vh;
+    border-bottom: 5px solid rgb(189, 142, 23);
 }
+.escudoLeyenda{
+    width: 40vw;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.6) ;
+    margin: auto ;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    border-radius: 2%;
+    display: flex;
+    flex-flow: row ;
+    
+}
+.escudo{
+    width: 11vw;
+    height: 25vh;
+    background-image: url(src/assets/img/escudo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto ;
+    border-radius: 2%;
+    
+}
+.leyenda{
+    width: 15vw;
+    height: 10vh;
+    color: #999;
+    margin: auto ;
+    font-size: 4vh;
+}
+
+
+/*Estilos para seccion "Nomina actual"*/
+
+.albunjugadores{
+    display: flex;
+    background:rgb(255, 255, 255);
+    flex-flow: wrap row;
+    justify-content: center;
+    flex-basis: unset;
+    padding-top: 20vh;
+}
+.albunjugadores__jugador{
+    width: 20vw;
+    height: 20vw;
+    z-index: 100;
+    margin: 10px;
+    border: 1px solid rgb(196, 194, 194);
+}
+
+.albunjugadores__jugador:hover{
+    width: 21vw;
+    height: 21vw;
+    box-shadow: 2px 3px 2px rgb(99, 97, 97);
+    transition: 100ms;
+    
+}
+
+
+.j1{
+    background-image: url(src/assets/img/jugadores/1.jpg);
+    background-size: cover;
+}
+
+.j2{
+    background-image: url(src/assets/img/jugadores/2.jpg);
+    background-size: cover;
+}
+
+.j3{
+    background-image: url(src/assets/img/jugadores/3.jpg);
+    background-size: cover;
+}
+
+.j4{
+    background-image: url(src/assets/img/jugadores/4.jpg);
+    background-size: cover;
+}
+
+.j5{
+    background-image: url(src/assets/img/jugadores/5.jpg);
+    background-size: cover;
+}
+
+.j6{
+    background-image: url(src/assets/img/jugadores/6.jpg);
+    background-size: cover;
+}
+
+.j7{
+    background-image: url(src/assets/img/jugadores/7.jpg);
+    background-size: cover;
+}
+
+.j8{
+    background-image: url(src/assets/img/jugadores/8.jpg);
+    background-size: cover;
+}
+
+.j9{
+    background-image: url(src/assets/img/jugadores/9.jpg);
+    background-size: cover;
+}
+
+.j10{
+    background-image: url(src/assets/img/jugadores/10.jpg);
+    background-size: cover;
+}
+
+.j11{
+    background-image: url(src/assets/img/jugadores/11.jpg);
+    background-size: cover;
+}
+
+.j12{
+    background-image: url(src/assets/img/jugadores/12.jpg);
+    background-size: cover;
+}
+
+.j13{
+    background-image: url(src/assets/img/jugadores/13.png);
+    background-size: cover;
+}
+
+.j14{
+    background-image: url(src/assets/img/jugadores/14.jpg);
+    background-size: cover;
+}
+
+.j15{
+    background-image: url(src/assets/img/jugadores/15.jpg);
+    background-size: cover;
+}
+
+.j16{
+    background-image: url(src/assets/img/jugadores/16.jpg);
+    background-size: cover;
+}
+
+.j17{
+    background-image: url(src/assets/img/jugadores/17.jpg);
+    background-size: cover;
+}
+
+.j18{
+    background-image: url(src/assets/img/jugadores/18.jpg);
+    background-size: cover;
+}
+
+.j19{
+    background-image: url(src/assets/img/jugadores/19.jpg);
+    background-size: cover;
+}
+
+.j20{
+    background-image: url(src/assets/img/jugadores/20.jpg);
+    background-size: cover;
+}
+
+.j21{
+    background-image: url(src/assets/img/jugadores/21.jpg);
+    background-size: cover;
+}
+
+.j22{
+    background-image: url(src/assets/img/jugadores/22.jpg);
+    background-size: cover;
+}
+
+.j23{
+    background-image: url(src/assets/img/jugadores/23.jpg);
+    background-size: cover;
+}
+
+.j24{
+    background-image: url(src/assets/img/jugadores/24.jpg);
+    background-size: cover;
+}
+.j26{
+    background-image: url(src/assets/img/jugadores/26.jpg);
+    background-size: cover;
+}
+
